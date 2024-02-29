@@ -25,7 +25,7 @@ jobs:
         pip install python-dotenv
         
     - name: Run Python script
-      working-directory: .github/notification-github-action
+      working-directory: .github/workflows
       run: python TaskNotifierScript.py
       env:
         PROJECT_NODE_ID: ${{ secrets.PROJECT_NODE_ID }}
