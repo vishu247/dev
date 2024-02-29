@@ -26,7 +26,7 @@ jobs:
         
     - name: Run Python script
       working-directory: .github/workflows
-      run: python TaskNotifierScript.py
+      run: python ReportNotification.py
       env:
         PROJECT_NODE_ID: ${{ secrets.PROJECT_NODE_ID }}
         GIT_HUB_TOKEN: ${{ secrets.MY_ACCESS_TOKEN }}
