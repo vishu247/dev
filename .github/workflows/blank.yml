@@ -2,7 +2,7 @@ name: Daily Task Update
 
 on:
   schedule:
-    - cron: '30 03 * * *'
+    - cron: '* * * * *'
 
 jobs:
   update_tasks:
